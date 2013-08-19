@@ -184,8 +184,7 @@ public class MainActivity extends Activity {
 
 			folder_list = (ListView) findViewById(R.id.folder_contents);
 
-			// FIX ME
-
+			// FIX ME: lost .img .title
 			my_adapter = new SimpleAdapter(MainActivity.this, menu_list,
 					R.layout.listview_contents, new String[] { "title", "info",
 							"img"/* , "checkBox1" */}, new int[] { R.id.title,
